@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #79e2a8;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #36c274, #1A5C38);
+    
+    margin: 0px;
+    padding: 10px;
+    color: rgb(250, 250, 250);
+}
+
+header > p {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+    padding: 10px;
+}
+
+header > h1{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    text-shadow: 10px solid black;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav > a{
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+
+main {
+    width: 800px;
+    background-color: white;
+    padding:10px;
+    margin: 0 auto;
+}
+
+section > p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+section > h1,h2{
+    font-family: 'idroid';
+    color: #1A5C38;
+}
+span{
+    color: #28523c;
+    font-weight: 700;
+}
+section > h2 {
+    background-image: linear-gradient(to right, #36c27581, white);
+}
+section > p > a{
+    text-decoration: none;
+    color:#1A5C38;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color:#1A5C38;
+    font-weight: bold;
+
+}
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+}
+
+#imagem{
+    display: flex;
+    height: 450px;
+    width: 800px;
+    background-color: #1A5C38;
+    margin: 0 auto;
+    padding: 10px
+    
+}
+iframe{
+    display: block;
+    margin: auto;
+  
+}
+
+
+#final {
+    height: 450px;
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 0 0 10px 10px;
+}
+#extra {
+    border-radius: 10px 10px 0 0;
+    background-color: #57c488;
+    height: 40px;
+    width: 750px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    text-indent: 20px;
+    margin:auto;
+    
+}
+#extra2{
+    border-radius: 0 0 10px 10px;
+    background-color: #a9f3ca81;
+    height: 350px;
+    width: 750px;
+    display:flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin:auto;
+}
+#extra2 > p{
+    text-indent: 20px;
+    text-align: justify;
+    padding-top:  6px;
+    margin-top: 0;
+
+}
+#listas{
+     display: flex;
+     gap:200px;
+     margin-bottom: 0px;
+     margin-top: 0px;
+}
+#listas > ul{
+    list-style: none;
+     padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 10px;
+
+}
+#listas > p{
+     margin-top: 0;
+}
+
+footer{
+    text-align: center;
+    background-color: #1A5C38;
+    padding: 10px;
+    color: white;
+}
+footer >.negrito {
+    color: white;
+    font-weight: 600;
+}
